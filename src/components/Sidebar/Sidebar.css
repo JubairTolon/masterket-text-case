@@ -1,0 +1,70 @@
+.sidebar__container {
+    width: 272px;
+    height: 100vh;
+    box-shadow: 5px 5px 4px 1px #C2C2C2;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.logo__container {
+    gap: 16px;
+    padding-top: 32px;
+}
+
+.logo {
+    font-size: 28px;
+    color: #0D7704;
+}
+
+.logo__text {
+    font-size: 28px;
+}
+
+.link-active {
+    font-weight: 600;
+}
+
+.link-active .indigator {
+    visibility: visible;
+}
+
+.sidebar__menu__logo {
+    font-size: 20px;
+    margin-right: 33px;
+}
+
+.sidebar__menu__text {
+    font-size: 20px;
+}
+
+.indigator {
+    height: 42px;
+    width: 10px;
+    border-radius: 0 5px 5px 0;
+    background-color: #09FB5B;
+    margin-right: 20px;
+    visibility: hidden;
+}
+
+.ind__hidden {
+    height: 42px;
+    width: 10px;
+    border-radius: 0 5px 5px 0;
+    background-color: #09FB5B;
+    margin-right: 20px;
+    visibility: hidden;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 10px; */
+    margin-top: 70px;
+}
+
+.sidebar__add {
+    margin-bottom: 40px;
+    margin-left: 21px;
+    margin-right: 14px;
+}

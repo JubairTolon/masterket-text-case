@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav__head {
+    font-size: 36px;
+}
+
+.nav__head__info {
+    font-size: 18px;
+}
+
+.search__content {
+    gap: 18px;
+}
+
+.search__input {
+    height: 47px;
+    box-shadow: 3px -3px 4px 1px #C2C2C2;
+    width: 371px;
+    border-radius: 10px;
+}
+
+.nav__icon_container {
+    display: flex;
+    gap: 18px;
+}
+
+.nav__icon__content {
+    height: 47px;
+    width: 47px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #09FB5B;
+    font-size: 28px;
+}
